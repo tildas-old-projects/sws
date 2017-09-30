@@ -1,0 +1,23 @@
+{
+  "name": "sws",
+  "version": "1.0.0",
+  "description": "A simple web server made with express and serve",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"pls\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tilda/sws.git"
+  },
+  "author": "S Stewart",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tilda/sws/issues"
+  },
+  "homepage": "https://github.com/tilda/sws#readme",
+  "dependencies": {
+    "express": "^4.16.1",
+    "serve-static": "^1.13.1"
+  }
+}
