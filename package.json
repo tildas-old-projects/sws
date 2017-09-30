@@ -4,7 +4,8 @@
   "description": "A simple web server made with express and serve",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"pls\""
+    "test": "echo \"pls\"",
+    "build": "uglifyjs index.js -o \"sws.min.js\""
   },
   "repository": {
     "type": "git",
