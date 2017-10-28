@@ -17,7 +17,7 @@ function listen(port) {
    * @param {number} Port to be used
    */
   // We can assume the user has a views directory
-  e.use(s(path.join(__dirname, 'views')))
+  e.use(s(p.join(__dirname, 'views')))
   // If not, that's fine! We can use the current dir.
   e.use(s(__dirname))
   e.listen(port)
